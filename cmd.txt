@@ -1,0 +1,37 @@
+Setup and create first app
+1. Install node later that 6.9 from nodejs.org
+2. node -v //check node version
+3. Install angular cli
+    npm install -g @angular/cli
+4. Verify by typing below command. It will give all the options.
+    ng
+5. Create your project folder and navigate to that folder on command line.
+6. Create your project
+    ng new <app-name>
+7. navigate to folder <app-name> in command line.
+8. Imp files and folders created
+    e2e - end to end testing folder
+    src - all project files
+    package.json - app name, version, dependencies, dev dependencies - angular cli part of development but not to deliver.
+                    karma, typescript, not part of functionality.
+    tsconfig.json - 
+                    target : "es5"
+    index.html - 
+                    <app-root></app-root> It is main component at top level root.
+                    Wherever it sees this tag it will replace it with content of app.component.html.
+9. Test your app app.component.spec.ts
+    ng test 
+10. Push your project to github.
+    Login to github
+    start a new project
+    create repository button
+    imp command
+        git remote add origin https://github.com/ganpatth/GTNG-ang1.git
+        git push -u origin master
+        git status
+        git diff
+        git pull
+        git add .
+        git push
+    
+
